@@ -47,11 +47,11 @@
                         Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
                 
-                <div class="col col-sm-3 align-self-center">    <!--logo and button occupying 3 cols each-->
+                <div class="col-12 col-sm-3 align-self-center">    <!--logo and button occupying 3 cols each-->
                     <img src="img/logo.png" class="img-fluid">
                 </div>
                 
-                <div class="col col-sm-3 align-self-center">
+                <div class="col-12 col-sm-3 align-self-center">
                     <a href="#form" role="button" class="btn btn-sm btn-warning btn-block">Reserve Table</a>
                 </div>  <!--anchor tag with role of a button. Redirects to the element with id "form"-->
                 
@@ -126,12 +126,12 @@
         </div>
 
 <!--Assignment 2 Task 1-->
-        <div class="row row-content">
+        <div id="form" class="row row-content"> <!--id = "form" applied to the div containing the form-->
             <div class="col-12 col-sm-8 mx-auto">   <!--mx-auto to center the card in the row--> <!--8 cols for sm-xl-->
                 <div class="card">    
                     <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
-                    <div id="form" class="card-body mr-auto"> <!--mr-auto for a right margin; gives good symmetric view-->
-                        <form>    <!--id = "form" applied to the div containing the form-->
+                    <div class="card-body mr-auto"> <!--mr-auto for a right margin; gives good symmetric view-->
+                        <form>    
                             <div class="form-group row">
                                 
                                 <label for="numguests" class="col-12 col-sm-2 col-form-label">Number of Guests</label>
@@ -139,28 +139,28 @@
                                 <div class="col-12 col-sm-6"> <!--total 8 cols: 2 for form labels, 6 for form inputs-->
 
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                                        <label class="form-check-label" for="inlineRadio1">1</label>
+                                        <input class="form-check-input" type="radio" name="numguests" id="1" value="1">
+                                        <label class="form-check-label" for="1">1</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                                        <label class="form-check-label" for="inlineRadio2">2</label>
+                                        <input class="form-check-input" type="radio" name="numguests" id="2" value="2">
+                                        <label class="form-check-label" for="2">2</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
-                                        <label class="form-check-label" for="inlineRadio3">3</label>
+                                        <input class="form-check-input" type="radio" name="numguests" id="3" value="3">
+                                        <label class="form-check-label" for="3">3</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
-                                        <label class="form-check-label" for="inlineRadio4">4</label>
+                                        <input class="form-check-input" type="radio" name="numguests" id="4" value="4">
+                                        <label class="form-check-label" for="4">4</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5">
-                                        <label class="form-check-label" for="inlineRadio5">5</label>
+                                        <input class="form-check-input" type="radio" name="numguests" id="5" value="5">
+                                        <label class="form-check-label" for="5">5</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio6" value="option6">
-                                        <label class="form-check-label" for="inlineRadio6">6</label>
+                                        <input class="form-check-input" type="radio" name="numguests" id="6" value="6">
+                                        <label class="form-check-label" for="6">6</label>
                                     </div>
 
                                 </div>
