@@ -2,6 +2,7 @@ $lt-gray: #ddd;
 $background-dark: #512DA8;
 $background-light: #9575CD;
 $background-pale: #D1C4E9;
+$text-color: floralwhite;
 
 // Height variables
 $carousel-item-height: 300px;
@@ -74,3 +75,30 @@ body{
     bottom: 0px;
     z-index: 1;
 }
+
+//Assignment 4: Task 4
+.modal-header {
+    background-color: $background-dark;
+    color: $text-color;
+
+    .close {
+        color: $text-color;
+    }
+}
+
+.modal-body {
+    background-color: $background-pale;
+}
+
+/*
+color refers to the text color in that element.
+
+background-color refers to the background color
+
+background is shorthand to combine many background tags into one line.
+
+example:
+background: #ffffff url("img_tree.png") no-repeat right top;
+
+Combines color, image and background image properties in the one line instead of typing our each style individually.
+*/
