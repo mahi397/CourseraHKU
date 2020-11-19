@@ -61,3 +61,16 @@ body {
 
 .modal-body {
   background-color: #D1C4E9; }
+
+/*
+color refers to the text color in that element.
+
+background-color refers to the background color
+
+background is shorthand to combine many background tags into one line.
+
+example:
+background: #ffffff url("img_tree.png") no-repeat right top;
+
+Combines color, image and background image properties in the one line instead of typing our each style individually.
+*/
