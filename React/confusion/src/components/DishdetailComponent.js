@@ -3,14 +3,6 @@ import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
 
 class Dishdetail extends Component {
 
-    constructor(props) {
-        super(props);
-
-        this.state = {
-            
-        }
-    }
-
     renderDish(dish) {
         if (dish != null)
             return(
